@@ -12,6 +12,8 @@ libraryDependencies ++= {
 
 Seq(
 
+  "org.json4s" %% "json4s-jackson" % "3.5.0",
+
   "com.typesafe.akka" %% "akka-actor" % akkaV,
   "com.typesafe.akka" %% "akka-http-core" % akkaHttpV,
   "com.typesafe.akka" %% "akka-http" % akkaHttpV
